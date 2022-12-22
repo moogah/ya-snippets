@@ -1,0 +1,8 @@
+# -*- mode: snippet; -*-
+# contributor: Jeff Farr (moogah@gmail.com)
+# name: src-tramp
+# key: src
+# --
+#+begin_src ${1:sh} :dir $2 :async t :returns output
+  $0
+#+end_src

@@ -1,0 +1,8 @@
+# -*- mode: snippet; -*-
+# contributor: Jeff Farr (moogah@gmail.com)
+# name: src-simple
+# key: src
+# --
+#+begin_src ${1:emacs-lisp} :returns output
+  $0
+#+end_src
