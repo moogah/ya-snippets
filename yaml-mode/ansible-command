@@ -2,5 +2,5 @@
 # name: ansible-command 
 # key: ans-cmd
 # --
-- name: ${name}
+- name: ${1:name}
   command: $2

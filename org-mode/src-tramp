@@ -3,6 +3,6 @@
 # name: src-tramp
 # key: src
 # --
-#+begin_src ${1:sh} :dir $2 :async t :returns output
+#+begin_src ${1:sh} :async t :dir /ssh:$2:${3:~} :prologue exec 2>&1 :epilogue "true" :results output
   $0
 #+end_src
